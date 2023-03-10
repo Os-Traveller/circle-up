@@ -12,7 +12,7 @@
     <!-- header starts-->
     <header class="header_bg">
       <!-- navbar starts -->
-      <nav class="border-b py-3 shadow">
+      <nav class="header_bg border-b py-3 shadow sticky top-0">
         <section class="container mx-auto flex justify-between items-center">
           <!-- links and logo starts-->
           <div class="flex items-center gap-12">
@@ -36,11 +36,11 @@
             <!-- search icon starts -->
             <div class="flex gap-3 items-center border-b border-gray-400 px-5 pb-2">
               <img class="w-4" src="./icons/loupe.png" alt="" />
-              <p>Search Here...</p>
+              <input class="bg-transparent outline-none" placeholder="Search Here..." />
             </div>
             <!-- search icon ends -->
             <!-- login button starts -->
-            <button class="bg-blue-500 text-white px-6 py-2 rounded-md">Login</button>
+            <button class="bg-blue-500 text-white px-6 py-2 rounded-lg">Login</button>
             <!-- login button ends -->
           </div>
           <!-- search icon and login button ends -->
@@ -57,8 +57,8 @@
             & family
           </p>
           <div class="mt-8 flex gap-10">
-            <button class="p-5 bg-blue-500 text-white rounded-lg">About More</button>
-            <button class="p-5 text-blue-500 border-2 border-blue-400 rounded-lg">
+            <button class="p-4 bg-blue-500 text-white rounded-lg">About More</button>
+            <button class="p-4 text-blue-500 border-2 border-blue-400 rounded-lg">
               Invite Friends
             </button>
           </div>
@@ -70,7 +70,62 @@
       <!-- hero section ends -->
     </header>
     <!-- header ends-->
-    <!-- main -->
+    <!-- main starts-->
+    <main>
+      <section class="container py-24 mx-auto flex items-center justify-between">
+        <!-- introduction starts -->
+        <!-- text parts starts -->
+        <div class="w-[40%]">
+          <p class="text-blue-600 text-lg">What's CircleUp</p>
+          <h1 class="text-4xl font-semibold mt-4">Why Join to CircleUp Social Network</h1>
+          <p class="mt-6 text-gray-500">
+            Recent surveys have indicated that small business recognize the need they have to
+            connect with consumer
+          </p>
+          <div class="mt-7">
+            <!-- group -->
+            <div class="flex items-center gap-2">
+              <div class="w-5 h-5 rounded-full bg-blue-200 flex justify-center items-center">
+                <div class="w-2 h-2 rounded-full bg-blue-600">&nbsp;</div>
+              </div>
+              <p>Group</p>
+            </div>
+
+            <!-- message -->
+            <div class="flex items-center gap-2 mt-2">
+              <div class="w-5 h-5 rounded-full bg-blue-200 flex justify-center items-center">
+                <div class="w-2 h-2 rounded-full bg-blue-600">&nbsp;</div>
+              </div>
+              <p>Message</p>
+            </div>
+
+            <!-- Share -->
+            <div class="flex items-center gap-2 mt-2">
+              <div class="w-5 h-5 rounded-full bg-blue-200 flex justify-center items-center">
+                <div class="w-2 h-2 rounded-full bg-blue-600">&nbsp;</div>
+              </div>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- text parts ends -->
+
+        <!-- image parts starts -->
+        <div class="w-[40%] flex items-center justify-end gap-10">
+          <div>
+            <img class="rounded-lg" src="./img/pexels-fauxels-3182834.png" alt="" />
+          </div>
+          <div>
+            <img class="rounded-lg mb-10" src="./img/pexels-andres-ayrton-6578391.png" alt="" />
+            <img class="rounded-lg" src="./img/pexels-brett-sayles-2881232.png" alt="" />
+          </div>
+        </div>
+        <!-- image parts ends -->
+
+        <!-- introduction ends -->
+      </section>
+    </main>
+    <!-- main ends -->
     <!-- footer -->
   </body>
 </html>
